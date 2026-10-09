@@ -7,19 +7,22 @@ import seaborn as sns
 import io
 import requests
 
+st.title("Data exploration and preparation")
+
+st.subheader("We started with data from 3 different datasets")
+
+st.markdown("The first dataset holds information on participants in Olympic games. It holds 70.000 rows and 15 columns.",
+            "The second dataset is mainly a key to convert Olympic country codes into corresponding country names (like 'GER' into 'Germany')",
+            "Both can be found on https://www.kaggle.com/datasets/bhanupratapbiswas/olympic-data")
+st.markdown("The third dataset holds demographic data. It has 234 rows and 17 columns.",
+            "Can be found on https://www.kaggle.com/datasets/tanishqdublish/world-data-population")
 
 
 
+# st.header("Driving question:")
 
+# st.subheader("From our dataset we noticed that inhabitants of different countries or continents do not have equal chances to participate in the Olympic games.")
 
-
-
-
-
-
-"""
-Hello, this is page 2
-"""
 
 
 
