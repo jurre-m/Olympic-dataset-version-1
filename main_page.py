@@ -5,19 +5,35 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# brainstorm about layout:                                # ik werk eigenlijk uit gewoonte in het engels. Overschakelen naar Nederlands? Maar onze data is ook Engels.. Of alles in het Nederlands houden? 
-# Make the tab for this page read "header" or "introduction or something like it. 
-# Make the tab for page 2 be "data preparation"
-# Make the tab for page 3 be "analysis"
-# Make the tab for page 4 be "conclusion"
+# brainstorm about layout:                                # ik werk eigenlijk uit gewoonte in het engels. Overschakelen naar Nederlands? Maar onze data is ook Engels.. Wat denk je van het echte werk in het engels en opmerkingen voor elkaar tussendoor of brainstormen zoals hieronder in het Nederlands?
+# Make the tab for page 1 be "introduction"                 # Wat heeft ons aan het werk gezet, in een mooie layout
+# Make the tab for page 2 be "data preparation"            # Welke data hebben we gebruikt, verantwoording van keuzes, wat hebben we ermee gedaan om aan de slag te kunnen
+# Make the tab for page 3 be "analysis"                    # Beantwoorden van onze hoofdvraag en overige interessante conclusies uit de data
+# Make the tab for page 4 be "conclusion"                # conclusie en uitvloeiende vragen die overblijven
+                                                            # ik denk dat 4 pagina's uiteindelijk mooi gaat zijn, maar is maar een opzet...
 
 st.title("Case 2 presentation")
 
-st.header("Main research question:")
+st.header("Driving question:")
 
-st.subheader("From our dataset we noticed that inhabitants of different countries do not have equal chances to participate in the Olympic games. The question we want to answer is if this is a phenomenon that is changing over time.")
+st.subheader("From our dataset we noticed that inhabitants of different countries or continents do not have equal chances to participate in the Olympic games.")
 
-st.markdown("what does this font look like?")
+
+
+
+
+
+
+
+
+
+
+
+
+st.header("Hypothesis:")
+
+st.subheader("Over time, participation in the Olympics is becoming more equal over countries or continents")
+
 
 
 data = [
