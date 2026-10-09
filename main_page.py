@@ -18,14 +18,18 @@ st.header("Driving question:")
 
 st.subheader("From our dataset we noticed that inhabitants of different countries or continents do not have equal chances to participate in the Olympic games.")
 
+"""
+
+
+
+figure with unrefined participation in Olympics & demographic data from 10 random countries or something like it. 
 
 
 
 
 
 
-
-
+"""
 
 
 
@@ -35,7 +39,7 @@ st.header("Hypothesis:")
 st.subheader("Over time, participation in the Olympics is becoming more equal over countries or continents")
 
 
-
+# ik denk dat deze naar pagina 2 moet.
 data = [
     (2016, "Rio de Janeiro", -22.9068,  -43.1729),
     (2000, "Sydney",         -33.8688,  151.2093),
