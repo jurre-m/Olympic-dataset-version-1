@@ -5,21 +5,20 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+# brainstorm about layout:                                # ik werk eigenlijk uit gewoonte in het engels. Overschakelen naar Nederlands? Maar onze data is ook Engels.. Of alles in het Nederlands houden? 
+# Make the tab for this page read "header" or "introduction or something like it. 
+# Make the tab for page 2 be "data preparation"
+# Make the tab for page 3 be "analysis"
+# Make the tab for page 4 be "conclusion"
 
+st.title("Case 2 presentation")
 
+st.header("Main research question:")
 
+st.subheader("CoInhabitants of different countries do not have equal chances to participate in the Olympic games. 
 
-
-
-
-
-
-
-
-"""
-Hello, this is page 1. 
-"""
-
+st.markdown("what does this font look like?")
+             
 data = [
     (2016, "Rio de Janeiro", -22.9068,  -43.1729),
     (2000, "Sydney",         -33.8688,  151.2093),
