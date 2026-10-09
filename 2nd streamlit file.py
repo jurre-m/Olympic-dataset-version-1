@@ -10,9 +10,9 @@ import seaborn as sns
 # df = pd.read_csv(url_1)
 
 # Define the pages
-introduction = st.Page("main_page.py", title="Main Page", icon="🎈")
-hypothesis = st.Page("page_2.py", title="Page 2", icon="❄️")
-answer = st.Page("page_3.py", title="Page 3", icon="🎉")
+introduction = st.Page("main_page.py", title="Introduction", icon="🎈")
+hypothesis = st.Page("page_2.py", title="Data Preparation", icon="❄️")
+answer = st.Page("page_3.py", title="Hypothesis Testing", icon="🎉")
 
 # Set up navigation
 pg = st.navigation([introduction, hypothesis, answer])
