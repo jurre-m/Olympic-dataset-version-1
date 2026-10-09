@@ -15,10 +15,11 @@ st.title("Case 2 presentation")
 
 st.header("Main research question:")
 
-st.subheader("CoInhabitants of different countries do not have equal chances to participate in the Olympic games. 
+st.subheader("From our dataset we noticed that inhabitants of different countries do not have equal chances to participate in the Olympic games. The question we want to answer is if this is a phenomenon that is changing over time.")
 
 st.markdown("what does this font look like?")
-             
+
+
 data = [
     (2016, "Rio de Janeiro", -22.9068,  -43.1729),
     (2000, "Sydney",         -33.8688,  151.2093),
